@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/mv/main",
+    "pages/music-play/main",
+    "pages/menu-content/main",
+    "pages/song-menu/main",
+    "pages/mv-play/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "AI听音乐",
+    "navigationBarTextStyle": "black"
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "MV",
+        "pagePath": "pages/mv/main",
+        "iconPath": "static/tabs/mv.png",
+        "selectedIconPath": "static/tabs/mv-active.png"
+      },
+      {
+        "text": "今日推荐",
+        "pagePath": "pages/music-play/main",
+        "iconPath": "static/tabs/mtoday.png",
+        "selectedIconPath": "static/tabs/mtoday-active.png"
+      },
+      {
+        "text": "歌单",
+        "pagePath": "pages/song-menu/main",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order-active.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
